@@ -1,0 +1,3 @@
+- [Подробно о риичи-маджонге](http://tesuji-club.ru/)
+- [[meta/Приложения риичи.md|Играть виртуально]]
+- [Telegram – @riichirocks](https://t.me/riichirocks)
