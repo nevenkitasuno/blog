@@ -20,8 +20,8 @@
     "riichirocks/riichi-apps/index.html",
     "style.css",
     "transcripts-bushwacker/assets/intro-to-korea/preview.png",
-    "transcripts-bushwacker/assets/meta/bushwacker_top_banner.webp",
     "transcripts-bushwacker/assets/meta/favicon.ico",
+    "transcripts-bushwacker/assets/meta/top_banner.webp",
     "transcripts-bushwacker/index.html",
     "transcripts-bushwacker/intro-to-korea/index.html"
   ],
@@ -48,10 +48,10 @@
     "style.css": "06dc172635a53d24a84c9516d1349f05031a568ce63e5f5bd6852c9072751c72",
     "transcripts-bushwacker/2014-06-04-intro-to-korea/1.md": "87413d9cd134ab90c6f480b03ec6cc50bbc501d427ea0c087b54303f31af96d5",
     "transcripts-bushwacker/2014-06-04-intro-to-korea/preview.png": "566b46d7390a42a4cf7fa30c7eef0afb5b2d95dc5851185ee7259b491f6f051d",
-    "transcripts-bushwacker/meta/Config.yaml": "64abecbabbf048d0a2f24b2b992ae4ae0ad8f8d107e6e6ab658d1685ccb684c1",
+    "transcripts-bushwacker/meta/Config.yaml": "1d2c6eab91e5d335d6bfe4bfe4eb066ee8153f280f35240de1c9fb09fbd28535",
     "transcripts-bushwacker/meta/Links.md": "9b68c5e024bbcb79cd53a5e8e9e48d2aab8179ab26b36918d97b0ee54c5fc23b",
-    "transcripts-bushwacker/meta/bushwacker_top_banner.webp": "21d5d9a241484167199393cb3641d04c4d131215100f7a9e1eef046a90354809",
-    "transcripts-bushwacker/meta/favicon.ico": "198882f74394809f00c31ada6af2da446fb279991a4417cdb3727ff8a1d5c3c7"
+    "transcripts-bushwacker/meta/favicon.ico": "198882f74394809f00c31ada6af2da446fb279991a4417cdb3727ff8a1d5c3c7",
+    "transcripts-bushwacker/meta/top_banner.webp": "21d5d9a241484167199393cb3641d04c4d131215100f7a9e1eef046a90354809"
   },
   "generator_hash": "d7d0bf25ca350882edc1c9bc732faa0885003fa5f88694f65e3f401efe330b65"
 }
