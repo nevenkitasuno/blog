@@ -1,0 +1,4 @@
+- [Подробно о риичи-маджонге](http://tesuji-club.ru/)
+- [[meta/riichi-apps.md|Играть виртуально]]
+- [[meta/get-goods.md|Купить маджонг, ханафуду и прочее]]
+- [Telegram – @riichirocks](https://t.me/riichirocks)
