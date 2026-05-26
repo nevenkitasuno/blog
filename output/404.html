@@ -4,14 +4,51 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>404</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" data-site-style>
+<link rel="stylesheet" href="../style.css" data-site-style-fallback>
+<link rel="stylesheet" href="../../style.css" data-site-style-fallback>
+<link rel="stylesheet" href="../../../style.css" data-site-style-fallback>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body class="page-shell">
 <main class="content-shell">
 <h1 class="page-title">404</h1>
 <p>Страница не найдена.</p>
-<p><a href="./">На главную</a></p>
+<p><a href="./" data-topic-home-link>На главную</a></p>
 </main>
+<script>
+(function() {
+  const styleLinks = document.querySelectorAll('[data-site-style], [data-site-style-fallback]');
+  const link = document.querySelector('[data-topic-home-link]');
+
+  const topics = ["adastra", "krugozor", "riichirocks", "transcripts-bushwacker"];
+  const segments = window.location.pathname.split('/').filter(Boolean);
+  const decodedSegments = segments.map(function(segment) {
+    try {
+      return decodeURIComponent(segment);
+    } catch (_) {
+      return segment;
+    }
+  });
+  const topicIndex = decodedSegments.findIndex(function(segment) {
+    return topics.includes(segment);
+  });
+
+  const prefixSegments = topicIndex === -1 ? segments.slice(0, -1) : segments.slice(0, topicIndex);
+  const prefix = prefixSegments.join('/');
+  const siteRoot = '/' + (prefix ? prefix + '/' : '');
+  styleLinks.forEach(function(styleLink) {
+    styleLink.href = siteRoot + 'style.css';
+  });
+
+  if (!link) return;
+
+  if (topicIndex !== -1) {
+    link.href = siteRoot + segments[topicIndex] + '/';
+  } else if (topics.length === 1) {
+    link.href = siteRoot + topics[0] + '/';
+  }
+})();
+</script>
 </body>
 </html>
