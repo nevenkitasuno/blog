@@ -1,3 +1,3 @@
-Блог по адресу nevenkitasuno.com
+Блог по адресу [nevenkitasuno.com](https://www.nevenkitasuno.com/)
 
-Сделан на движке https://github.com/nevenkitasuno/blog-ssg
+Сделан на движке [github.com/nevenkitasuno/blog-ssg](https://github.com/nevenkitasuno/blog-ssg)
